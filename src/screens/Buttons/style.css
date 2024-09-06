@@ -1,0 +1,33 @@
+.buttons {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.buttons .button-wrapper {
+  background-color: #ffffff;
+  height: 924px;
+  width: 1440px;
+}
+
+.buttons .div {
+  align-items: center;
+  border: 1px dashed;
+  border-color: #9747ff;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 32px;
+  left: 60px;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  top: 60px;
+  width: 469px;
+}
+
+.buttons .button-instance {
+  flex: 0 0 auto !important;
+}
